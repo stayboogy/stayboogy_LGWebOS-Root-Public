@@ -1,0 +1,38 @@
+curl -L -o /tmp/jailpatch.sh https://raw.githubusercontent.com/throwaway96/install-jail-conf/main/jailpatch.sh && sh /tmp/jailpatch.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0****** jailpatch.sh from https://github.com/throwaway96/install-jail-conf
+*** for instructions, see https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f
+
+100  7067  100  7067    0     0  37590      0 --:--:-- --:--:-- --:--:-- 37590
+*** webOS version: 6.4.0
+*** jail_app.conf backup already exists
+*** jail_app.conf.sig backup already exists
+*** current hash: c3e565cd828ab97ab9957c5252f34b55
+*** found version 6, patching...
+*** patched signature verified
+*** overwriting...
+*** done overwriting
+*** verification of current conf successful
+
+
+http://<TV IP>:9991/webos_rsa
+
+http://192.168.1.195:9991/webos_rsa
+
+nyx-cmd DeviceInfo query hardware_id
+HE_DTV_W21A_AFADATAA
+
+
+cdpbeacon.lgtvcommon.com
+cdpsvc.lgtvcommon.com
+homeprv.lgtvcommon.com
+nudge.lgtvcommon.com
+rdl.lgtvcommon.com
+recommend.lgtvcommon.com
+lgsmartad.com
+
+service.lgtvcommon.com
+
+
