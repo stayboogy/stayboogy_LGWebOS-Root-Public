@@ -1,3 +1,42 @@
+1. Enable Developer Mode--install developer mode from app store, create developer account at LG,  run the app, login, turn on dev mode, reboot
+
+https://webostv.developer.lge.com/develop/getting-started/developer-mode-app
+
+2. Download and Install on PC: WebOS-DevManager, Putty
+
+3. Disable Quick Start on TV, reboot
+
+4. in LG Dev Mode APP, enable keyserver
+
+5. On PC, in Dev Manager, add device, ip of tv, enter passphrase from tv dev mode app, click install the homebrew channel ipk, make sure it installs on tv, click terminal in PC dev manager, 
+
+curl -L -o /tmp/jailpatch.sh https://raw.githubusercontent.com/throwaway96/install-jail-conf/main/jailpatch.sh && sh /tmp/jailpatch.sh
+
+make sure you get verification of current conf successful
+
+reboot tv
+
+6. on PC in dev manager, go to terminal, 
+
+touch /var/log/crashd/"x;telnetd -l sh"
+
+7. on PC in putty, tv's ip + port 23 + other=telnet
+
+/media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/elevate-service
+
+rm -rf /var/luna/preferences/devmode_enabled && mkdir -p /var/luna/preferences/devmode_enabled
+
+rm /var/lib/webosbrew/startup.sh /mnt/lg/cmn_data/wam/extra_conf.sh
+
+8. Uninstall Developer Mode app from TV - do not reinstall while tv is rooted
+
+9. Power Off TV
+
+10. check root status in homebrew channel on tv
+
+11. turn on ssh in homebrew channel and restart
+
+
 curl -L -o /tmp/jailpatch.sh https://raw.githubusercontent.com/throwaway96/install-jail-conf/main/jailpatch.sh && sh /tmp/jailpatch.sh
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
