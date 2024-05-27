@@ -1,3 +1,38 @@
+NEXTDNS SETTINGS:
+
+BLOCK ADS AND ALL GARBAGE:
+
+CURRENT SETTINGS:  
+
+MAY 2024:
+
+*.s3.amazonaws.com
+*.clients1.google.com
+*.www.google.com
+*.play.google.com
+*.us.lgtvsdp.com
+*.rdx2.lgtvsdp.co
+*.lgtvonline.lge.com
+*.mediaservices.cdn-apple.com
+*.ad.lgappstv.com
+*.nsu.lge.com
+*.su-dev.lge.com
+*.snu-dev.lge.com
+*.su-ssl.lge.com
+*.su.lge.com
+*.snu.lge.com
+*.service.lgtvcommon.com
+*.lgsmartad.com
+*.recommend.lgtvcommon.com
+*.rdl.lgtvcommon.com
+*.nudge.lgtvcommon.com
+*.homeprv.lgtvcommon.com
+*.cdpsvc.lgtvcommon.com
+*.cdpbeacon.lgtvcommon.com
+
+
+OLD SETTINGS:
+
 snu.lge.com
 su.lge.com
 su-ssl.lge.com
@@ -14,4 +49,5 @@ lgsmartad.com
 
 service.lgtvcommon.com
 
-nextDNS
+
+
