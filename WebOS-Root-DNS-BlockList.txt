@@ -10,7 +10,7 @@ MAY 2024:
 *.clients1.google.com
 *.www.google.com
 *.play.google.com
-*.us.lgtvsdp.com
+*.us.lgtvsdp.com--required for app updates, enable, update apps, disable again
 *.rdx2.lgtvsdp.co
 *.lgtvonline.lge.com
 *.mediaservices.cdn-apple.com
@@ -29,6 +29,14 @@ MAY 2024:
 *.homeprv.lgtvcommon.com
 *.cdpsvc.lgtvcommon.com
 *.cdpbeacon.lgtvcommon.com
+
+July2024 Additions:
+
+us.lgrecommends.lgappstv.com
+ngfts.lge.com
+aic-gfts.lge.com
+us.ibs.lgappstv.com
+us.security.lgtvsdp.com
 
 
 OLD SETTINGS:
